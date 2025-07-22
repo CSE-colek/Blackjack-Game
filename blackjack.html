@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BlackJack Project</title>
+    <link rel="stylesheet" href="blackjack.css">
+</head>
+<body>
+    <div class="card" id="dealerhand"></div>
+    <div class="container">   
+        <img src="https://raw.githubusercontent.com/ArmanAryanpour/blackjack/main/public/logo.png" id="title-image">
+        <div class="card-value" id="dealerhandvalue">Dealer Hand Value: </div> 
+        <button id="hitbutton">Hit</button>
+        <button id="playbutton">Play</button>
+        <button id="standbutton">Stand</button>
+        
+        <div class="card-value" id="playerhandvalue">Player Hand Value: </div>
+    </div>
+    <div class="card" id="playerhand"></div>
+    <div id="resultmessage">
+        <p id="resulttext"></p>
+    </div>
+    <button id="resetbutton">Reset</button>
+    <script src="blackjack.js"></script>
+</body>
+</html>
